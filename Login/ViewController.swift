@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let myButton = UIButton()
+    
     let loginTextField: UITextField = {
         let login = UITextField()
         login.translatesAutoresizingMaskIntoConstraints = false
